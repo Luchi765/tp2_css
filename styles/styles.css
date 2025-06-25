@@ -48,7 +48,22 @@ header .fotofondo {
 .contenedor {
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
+  padding: 20px;
+}
+
+.contenedor2 {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+.contenedor3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
   gap: 20px;
   padding: 20px;
 }
@@ -99,6 +114,9 @@ li {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
+
+
+
 
 .cardCabanas {
   display: flex;
@@ -172,4 +190,65 @@ li {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.footer{
+    background-color: #c54949;
+    width: 100%;
+    height: 150px;
+}
+
+.consulta {
+  padding: 30px;
+  max-width: 600px;
+  margin: auto;
+  background-color: #f9f9f9;
+  border-radius: 16px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  font-family: 'PT Sans', sans-serif;
+}
+
+.contenedor2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contenedor2 label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contenedor2 p {
+  margin: 0 0 5px 0;
+  color: #333;
+  font-weight: bold;
+}
+
+.contenedor2 input,
+.contenedor2 textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.blanca {
+  align-self: flex-start;
+}
+
+.blanca button {
+  background-color: #b52d2d;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.blanca button:hover {
+  background-color: #8d2222;
 }
